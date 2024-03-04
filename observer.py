@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import psutil
 import time
+from singleton import LoggingSingleton
 
 
 class Observer(ABC):
@@ -11,17 +12,17 @@ class Observer(ABC):
 
 class CPUObserver(Observer):
     def update(self, data):
-        print(f'CPU: {data.get('cpu_percent')}')
+        LoggingSingleton().log_info_message(f'CPU: {data.get('cpu_percent')}')
 
 
 class DiskObserver(Observer):
     def update(self, data):
-        print(f'Disk: {data.get('disk')}')
+        LoggingSingleton().log_info_message(f'Disk: {data.get('disk')}')
 
 
 class MemoryObserver(Observer):
     def update(self, data):
-        print(f'Memory: {data.get('memory')}')
+        LoggingSingleton().log_info_message(f'Memory: {data.get('memory')}')
 
 
 class ComputerPublisher:
