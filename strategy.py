@@ -40,7 +40,7 @@ def create_executor(algorithm: str):
     elif algorithm == 'tar':
         return ArchiveExecutor(TarArchiveStrategy())
     else:
-        None
+        return None
 
 
 if __name__ == '__main__':
