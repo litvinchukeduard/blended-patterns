@@ -1,0 +1,13 @@
+2024-03-04 20:04:13,425 - root - INFO - Hello, world!
+2024-03-04 20:04:45,341 - root - INFO - Hello, world!
+2024-03-04 20:05:06,129 - root - INFO - Hello, world!
+2024-03-04 20:05:06,129 - root - INFO - Hello, from log two
+2024-03-04 20:07:17,901 - root - INFO - Hello, world!
+2024-03-04 20:07:17,902 - root - INFO - Hello, from log two
+2024-03-04 20:18:59,066 - root - INFO - Hello, world!
+2024-03-04 20:18:59,067 - root - INFO - Hello, from log two
+2024-03-04 20:20:10,320 - root - INFO - Hello, world!
+2024-03-04 20:20:10,320 - root - INFO - Hello, from log two
+2024-03-04 20:20:27,480 - root - INFO - Hello, world!
+2024-03-04 20:20:27,481 - root - INFO - Hello, from log two
+2024-03-04 20:20:27,481 - root - DEBUG - THIS IS DEBUG!
